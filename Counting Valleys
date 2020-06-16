@@ -5,7 +5,8 @@ Solution:
 static int countingValleys(int n, String s) {
         int pos = 0;
         int valleyCount = 0;
-        for(int i = 0; i<n;i++){
+
+        for(int i = 0; i<n; i++){
             if(s.charAt(i)=='U'){
                 if(pos==-1){
                     valleyCount++;
